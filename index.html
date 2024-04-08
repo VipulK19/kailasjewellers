@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 4 Footer with Social icons</title>  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>  
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">  
+    <style>
+        body {
+            background-color: #FFD700;
+        }
+        div.header {
+            width: 100%;
+            height: 60px;
+            background-color: red;
+            position: relative;
+            animation-name: headerAnimation;
+            animation-duration: 3s;
+        }
+        @keyframes headerAnimation {
+            0% { background-color: red; left: 0%; top: 0%; }
+            25% { background-color: yellow; left: 100%; top: 0%; }
+            50% { background-color: blue; left: 100%; top: 100%; }
+            100% { background-color: rgb(21, 112, 232); left: 0%; top: 100%; }
+        }
+        h1.header-text {
+            text-align: center;
+            line-height: 60px;
+            color: white;
+        }
+        .button {
+            background-color: #04AA6D; /*Green*/
+            border: none;
+            color: rgba(4, 1, 1, 0.793);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .button a {
+            color: white;
+            text-decoration: none;
+        }
+        .button2 { background-color: #0C7AEE; }
+        .button3 { background-color: #EBEE0C; }
+        .button4 { background-color: #EA1818; }
+        .button5 { background-color: #9E9A9A; }
+        h2 {  
+            padding: 25px 0;  
+            text-align: center;  
+            color: #fff;  
+            background: #7c8490;  
+        }  
+        footer {  
+            background: rgb(9, 95, 234);  
+            color: white;  
+            margin-top: 100px;  
+        }  
+        footer a {  
+            color: #fff;  
+            font-size: 14px;  
+            transition-duration: 0.2s;  
+            text-decoration: none;  
+        }  
+        footer a:hover {  
+            color: #FA944B;  
+        }  
+        .copy {  
+            font-size: 12px;  
+            padding: 10px;  
+            border-top: 1px solid #FFFFFF;  
+        }  
+        .footer-middle {  
+            padding-top: 2em;  
+            color: white;  
+        }  
+        ul.social-network {  
+            list-style: none;  
+            display: inline;  
+            margin-left: 0 !important;  
+            padding: 0;  
+        }  
+        ul.social-network li {  
+            display: inline;  
+            margin: 0 5px;  
+        }  
+        .social-network a.icoFacebook:hover {  
+            background-color: #3B5998;  
+        }  
+        .social-network a.icoLinkedin:hover {  
+            background-color: #007bb7;  
+        }  
+        .social-network a.icoFacebook:hover i {  
+            color: #fff;  
+        }  
+        .social-network a.icoLinkedin:hover i {  
+            color: #fff;  
+        }  
+        .social-network a.socialIcon:hover {  
+            color: #44BCDD;  
+        }  
+        .socialHoverClass {  
+            color: #44BCDD;  
+        }  
+        .social-circle li a {  
+            display: inline-block;  
+            position: relative;  
+            margin: 0 auto 0 auto;  
+            border-radius: 50%;  
+            text-align: center;  
+            width: 30px;  
+            height: 30px;  
+            font-size: 15px;  
+        }  
+        .social-circle li i {  
+            margin: 0;  
+            line-height: 30px;  
+            text-align: center;  
+        }  
+        .social-circle li a:hover i {  
+            transform: rotate(360deg);  
+            transition: all 0.2s;  
+        }  
+        .triggeredHover {  
+            transform: rotate(360deg);  
+            transition: all 0.2s;  
+        }  
+        .social-circle i {  
+            color: #595959;  
+            transition: all 0.8s;  
+        }  
+        .social-network a {  
+            background-color: #F9F9F9;  
+        }  
+        .social-network a:hover {  
+            background: #ff304d;  
+        }
+        .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+  } 
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="header-text">Welcome to KAILAS JEWELLERS</h1>
+    </div>
+    <div style="text-align: center; margin-top: 20px;">
+        <button class="button button1"><a href="index.html">HOME</a></button> 
+        <button class="button button2"><a href="gallery.html">Gallery</a></button>
+        <button class="button button3"><a href="login form.html">Login</a></button>
+        <button class="button button4"><a href="rgs2.html">Register</a></button>
+        <button class="button button5"><a href="contact.html">Contact Us</a></button>
+    </div>
+    <div class="center">
+        <img src="img/kj.png" alt="kj" width="300px" height="180px">
+      </div>
+    <h4 align="center">Welcome to Kailas Jewellers: Where Every Gem Tells a Story</h4>
+    <p align="center">At Kailas Jewellers, we believe in the timeless allure of fine craftsmanship and the captivating
+        beauty of meticulously chosen gemstones. For generations, we have been dedicated to curating
+        exquisite pieces that celebrate life's most cherished moments.
+    </p>
+    <h4 align="center">Your Trusted Jewellery Partner</h4>
+        <p align="center">When you choose Kailas Jewellers, you're not just selecting a piece of jewellery 
+            you're embarking on a journey of trust and reliability. With a legacy built on integrity and customer satisfaction, 
+            we strive to exceed your expectations at every turn. Whether you're visiting our showroom or exploring our online 
+            catalogue, our knowledgeable staff are here to assist you every step of the way.
+        </p>
+        <h4 align="center">Experience the Difference</h4>
+        <p>
+            Step into the world of Kailas Jewellers and let the brilliance of our creations inspire you. 
+            Whether you're celebrating a milestone or simply indulging in a well-deserved treat, our jewellery is 
+            designed to be cherished for a lifetime. Join us in celebrating the beauty of fine craftsmanship and the 
+            enduring allure of exquisite gemstones. Welcome to Kailas Jewellers where every gem tells a story.
+        </p>
+        <h2>  
+            Get in touch with us 
+            </h2>  
+            <footer class="mainfooter" role="contentinfo">  
+              <div class="footer-middle">  
+              <div class="container">  
+                <div class="row">  
+                  <div class="col-md-3 col-sm-6">  
+                    <div class="footer-pad">  
+                      <h4> Payment firms </h4>  
+                      <ul class="list-unstyled">  
+                        <li> <a href="#"> </a> </li>  
+                        <li> <a href="#">Payment Center</a></li>  
+                        <li> <a href="#"> Contact Directory </a></li>  
+                        <li> <a href="#">Forms</a></li>  
+                        <li> <a href="#">News and Updates</a></li>  
+                        <li> <a href="#">FAQs</a></li>  
+                      </ul>  
+                    </div>  
+                  </div>  
+                  <div class="col-md-3 col-sm-6">  
+                    <div class="footer-pad">  
+                      <h4> More about us</h4>  
+                      <ul class="list-unstyled">  
+                        <li><a href="#"> Blog </a> </li>  
+                        <li><a href="#">Accessibility</a> </li>  
+                        <li><a href="#">Disclaimer</a></li>  
+                        <li><a href="#">Privacy Policy</a></li>  
+                        <li><a href="#">FAQs</a></li>  
+                        <li><a href="#">Webmaster</a></li>  
+                      </ul>  
+                    </div>  
+                  </div>  
+                  <div class="col-md-3 col-sm-6">  
+                    <div class="footer-pad">  
+                      <h4> contact information</h4>  
+                      <ul class="list-unstyled">  
+                        <li> <a href="#"> google pay</a> </li>  
+                        <li> <a href="#"> phone pay </a> </li>  
+                        <li> <a href="#">Bank information</a> </li>  
+                        <li> <a href="#"> upi</a> </li>  
+                        <li> <a href="#"> cash </a> </li>  
+                      </ul>  
+                    </div>  
+                  </div>  
+                    <div class="col-md-3">  
+                        <h4> Follow Us </h4>  
+                        <ul class="social-network social-circle">  
+                         <li> <a href="#" class="icoFacebook" title="Facebook"> <i class="fa fa-facebook"> </i> </a> </li>  
+                         <li> <a href="#" class="icoLinkedin" title="Linkedin"> <i class="fa fa-linkedin"> </i> </a> </li>  
+                <li> <a href="#"> <i class="fa fa-youtube" aria-hidden="true"> </i> </a> </li>  
+                        </ul>               
+                </div>  
+                </div>  
+                <div class="row">  
+                <div class="col-md-12 copy">  
+                <p class="text-center"> © Copyright 2021 - KAILAS JEWELLERS.  All rights reserved. </p>  
+                </div>  
+                </div>  
+              </div>  
+              </div>  
+            </footer>
